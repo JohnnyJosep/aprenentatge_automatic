@@ -49,13 +49,7 @@ class AdalineSGD(object):
         """
 
         # TODO: Put your code here. Notau que heu d'avaluar si s'han de mesclar les mostres.
-        for n_it in range(self.n_iters):
-
-            if self.shuffle:
-                X, y = self.__shuffle(X, y)
-
-            cost = []
-
+        #for n_it in range(self.n_iters):
 
         return self
 
